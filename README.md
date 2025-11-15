@@ -1,5 +1,9 @@
 # Derek-Cassidy-Front-End-Web-Development-1
-Git hub respository fro Coimmunication history website with active links 
+Git hub respository for Coimmunication history website with active links 
+I have rewritten my HTML, script and CSS to include the bootsrap chanmges that I made. Below is the bootstrap code I used and wher it fitted into my HTML code etc.
+
+
+
 # Bootstrap Guide for Beginners
 
 ## What is Bootstrap?
