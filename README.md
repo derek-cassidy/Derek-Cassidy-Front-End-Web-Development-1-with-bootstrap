@@ -1,10 +1,12 @@
 # Derek-Cassidy-Front-End-Web-Development-1
 Git hub respository for Coimmunication history website with active links 
-I have rewritten my HTML, script and CSS to include the bootsrap chanmges that I made. Below is the bootstrap code I used and wher it fitted into my HTML code etc.
-Overall the main changes that bootstrap has made cam be seen with the changes made to the original webpages and the new webpages. 
-In the new main webpage the display is different as it is now now in colums and also the links page is also different with links tpo actual third party sites.
+I have rewritten my index.html and links.html code with bootsrtap and thois has helped to change the script.js and style.css codes as they can be rewritten by bootstrap.
 
-Below is my original HTML code and the new code with bootstrap 
+Below is the bootstrap code I used and where it fitted into my index.html and links.html code
+Overall the main changes that bootstrap has made cam be seen with the changes made to the original webpages and the new webpages. 
+In the new main webpage the display is different as it is now now in colums and also the links page is also different with links to actual third party sites.
+
+Below is my index.html and links.html code with bootstrap 
 
 New index.html code with bootstrap
 <!DOCTYPE html>
@@ -542,41 +544,38 @@ footer {
 }
 
 
+I looked at the course resources and also online resources like the following to help me rewite my code using bootstrap which would mean that my CS and JS code could be amalgamated with the bootstrap and make it easier to write. I also discovered that bootstrap also allows for my webpages to be viewed on phones, tablets, and desktops. It also helps me get a good design working
+Bootstrap resources I used that I got online:
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://getbootstrap.com/docs/5.3/examples/
 
-Bootstrap is basically a big collection of pre-written CSS and JavaScript that makes building websites way easier. Instead of writing all your own CSS for buttons, navigation bars, grids, etc., you just use Bootstrap's classes and it does the work for you.
 
-**Why bother with Bootstrap?**
-- You save a ton of time not writing CSS from scratch
-- Your site automatically works on phones, tablets, and desktops
-- You get decent-looking components without being a design wizard
+How I added bootsrap to my site
 
-## How to Add Bootstrap to Your Site
+I added the index.html and links.html links
 
-### Step 1: Add the Links
+In the '<head>' section before my style.css I added the following, as instructed by the resources.
 
-You need two links in both `index.html` and `links.html`:
-
-**In the `<head>` section (before your style.css):**
 ```html
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 ```
-This loads Bootstrap's CSS. The CDN thing just means we're loading it from the internet instead of downloading files.
+This loaded Bootstrap's CSS. 
 
-**Before the closing `</body>` tag:**
+Before closing '<body> I followed the guidelines and carried out the download for the script.js 
 ```html
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 ```
 This loads Bootstrap's JavaScript. You need this for things like the mobile menu to work.
 
-## Bootstrap Components I Used
+The following bootstrap componets I used are as follows: 
 
-### 1. Navbar (Navigation Bar)
+1. Navbar or navigation bar
 
 This is the menu at the top of your page.
 
-**Before:**
+Before bootstrap navbar was added to my original html files
 ```html
 <header>
     <nav>
@@ -589,7 +588,7 @@ This is the menu at the top of your page.
 </header>
 ```
 
-**After:**
+After bootstrap navbar was added to my original html files, creating the new html file changes
 ```html
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
@@ -613,7 +612,7 @@ This is the menu at the top of your page.
 </nav>
 ```
 
-**What the classes do:**
+What the different navbar classes do.....
 - `navbar` - tells Bootstrap this is a navbar
 - `navbar-expand-lg` - collapses into a hamburger menu on small screens
 - `navbar-dark` - white text (works with the purple background)
@@ -784,6 +783,7 @@ What I kept kept:
 Result: Site works on any device without writing a bunch of responsive CSS by hand.
 
 Here are the differences between the new and original webpages after I added bootstrap changes.
+New main page followed by the original main page, then the new links page followed by the original links page.
 
 <img width="751" height="779" alt="Derek Cassidy Front-end-Web-Development-1 new main page" src="https://github.com/user-attachments/assets/11c180d4-21f6-4666-9413-eed0eb50b535" />
 <img width="521" height="729" alt="Derek Cassidy Front-end-Web-Development original main page" src="https://github.com/user-attachments/assets/99de9f50-7225-4c99-8ff3-fa3b1189ab01" />
@@ -797,8 +797,7 @@ Here are the differences between the new and original webpages after I added boo
 
 
 
-- Bootstrap Docs: https://getbootstrap.com/docs/5.3/getting-started/introduction/
-- Bootstrap Examples: https://getbootstrap.com/docs/5.3/examples/
+
 - Look at the HTML comments in your code
 
 
